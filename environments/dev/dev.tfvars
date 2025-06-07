@@ -1,0 +1,6 @@
+region          = "us-pheonix-1"
+vcn_cidr        = "10.0.0.0/16"
+vcn_name        = "jenkins-demo-vcn"
+subnet_cidr     = "10.0.1.0/24"
+subnet_name     = "jenkins-demo-subnet"
+subnet_dns      = "jenksubnet"
