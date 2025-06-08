@@ -13,7 +13,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git url: 'https://github.com/your-org/oci-terraform-infra.git', branch: 'main'
+        git url: 'git@github.com:noor-mohammad-git/oci-terraform-infra.git', branch: 'master'
       }
     }
 
